@@ -1,7 +1,7 @@
 export class ApiConstants {
   static port = 6002;
   static localUrl = `http://localhost:${this.port}`;
-  static deployedUrl = "https://spring-library-management-shubham.up.railway.app/";
+  static deployedUrl = "https://spring-library-management-shubham.up.railway.app";
   static mainUrl = `${this.deployedUrl}/demo`;
   static getAllUser = `${this.mainUrl}/getAllUser`;
   static login = `${this.mainUrl}/login`;
